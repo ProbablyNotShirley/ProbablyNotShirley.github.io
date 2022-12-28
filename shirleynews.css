@@ -1,0 +1,33 @@
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "p1 p2 p3"
+    "p1 p2 p3"
+    "p1 p2 p3";
+}
+
+.p2 { grid-area: p2; }
+
+.p3 { grid-area: p3; }
+
+.p1 { grid-area: p1; }
+
+div { font-size: 24px; }
+
+h1 { font-family: "arial black, arial, times, sans-sherif";
+	font-size: 50px;
+	text-align: center;}
+	
+h2 { font-family: times bold;
+	margin-left: 1em;
+	margin-right: 1em;}
+
+p { margin-left: 1em;
+	margin-right: 1em;}
+	
+body { margin-left: 9em;
+	margin-right: 9em;
+	background-image: url(https://img.freepik.com/premium-photo/old-paper-texture-background_118047-1365.jpg?w=2000);}
